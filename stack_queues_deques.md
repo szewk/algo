@@ -1,6 +1,6 @@
 <span style="color: #E5E4E4; font-family: Helvetica;">
 
-### [Главная](index.md) / [Алгоритмы](algos.md) / Стеки, очереди и деки
+### [Алгоритмы](algos.md) / Стеки, очереди и деки
 
 ## **Стеки**
 
