@@ -1,6 +1,6 @@
 <span style="color: #E5E4E4; font-family: Helvetica;">
 
-### [Алгоритмы](algos.md) / Графы
+### [Алгоритмы](README.md) / Графы
 
 # **Графы**
 
