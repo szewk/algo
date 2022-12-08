@@ -29,7 +29,7 @@
 Приступим к написанию функции.
 
     used = set()
-    
+
     def dfs(vert):
         print(vert)
         used.add(vert)
