@@ -95,7 +95,3 @@
     [34, -88, 90.01, ‘never gonna give you up’, True]
     34
     [-88, 90.01, ‘never gonna give you up’, True]
-
-
-
-</span>
