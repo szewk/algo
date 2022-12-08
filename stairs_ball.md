@@ -54,5 +54,3 @@
         memory[i] = memory[i - 1] + memory[i - 2]
         
     print(memory[n - 1])
-
-</span>
