@@ -16,7 +16,7 @@
                 if mas[j] > mas[j + 1]:
                     mas[j], mas[j + 1] = mas[j + 1], mas[j]
         
-        return(mas)
+        return mas
 
 Пусть есть массив [6, 5, 4, 3, 2, 1]. 
 
