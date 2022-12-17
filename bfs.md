@@ -29,13 +29,13 @@
 Для решения задачи представим граф, который описывает ваши связи в ВК, где `‘you’` – это вы, а `‘President’` – президент. Граф представим в виде списка смежности, но так как вершины теперь не числа, а строки (имена пользователей), список придется модифицировать. Пусть это будет словарь:
 
     graph = {
-        'you': ['Cringe993', 'ur_mom', 'rickRoll'],
-        'ur_mom': ['you', 'rickRoll', 'MARYGOLD', 'Amadevs'],
-        'rickRoll': ['you', 'Amadevs', 'ur_mom'],
-        'Cringe993': ['you'],
-        'MARYGOLD': ['ur_mom', 'Amadevs', 'President'],
-        'Amadevs': ['MARYGOLD', 'rickRoll', 'ur_mom'],
-        'President': ['MARYGOLD']
+        'you': ['kevin', 'Mark', 'luck'],
+        'Mark': ['you', 'lucky', 'hleb', 'Amadevs'],
+        'lucky': ['you', 'Amadevs', 'Mark'],
+        'kevin': ['you'],
+        'hleb': ['Mark', 'Amadevs', 'President'],
+        'Amadevs': ['hleb', 'lucky', 'Mark'],
+        'President': ['hleb']
     }
 
 Используя имя пользователя как ключ, можно обращаться к списку друзей этого пользователя.
