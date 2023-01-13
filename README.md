@@ -1,4 +1,4 @@
-<span style="color: #E5E4E4; font-family: Courier New;">
+<span style="font-family: Courier New;">
 
 # Добро пожаловать!
 
@@ -29,4 +29,5 @@
 * ## [Графы](graphs.md)
     + [Поиск в ширину](bfs.md)
     + [Поиск в глубину](dfs.md)
+    
 </span>
