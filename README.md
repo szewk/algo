@@ -1,4 +1,4 @@
-<span style="color: #E5E4E4; font-family: PT Mono;">
+<span style="color: #E5E4E4; font-family: Courier New;">
 
 # Добро пожаловать!
 
@@ -6,7 +6,7 @@
 
 *Успехов в постижении олимпиадного программирования!*
 
-**Хаб школы 1505 (by Алексндр Максимов): [https://gym1505.github.io/hub/](https://gym1505.github.io/hub/)**
+**Хаб школы 1505 (by Александр Максимов): [https://gym1505.github.io/hub/](https://gym1505.github.io/hub/)**
 
 * ## [Оценка сложности алгоритмов](asymptotic.md)
 
