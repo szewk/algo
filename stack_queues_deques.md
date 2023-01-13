@@ -22,16 +22,16 @@
 
 <img src="assets/stack.png" alt="Stack" width="500"/>
 
-Мы можем взять мячик только сверху и положить новый можем только наверх. Для этого определены операции `.push()` и `.pop()` для добавления и удаления соответственно, при этом каждая операция работает за $O(1)$.
+Мы можем взять мячик только сверху и положить новый можем только наверх. Для этого определены методы `.push()` и `.pop()` для добавления и удаления соответственно, при этом каждая операция работает за $O(1)$.
 
 ## **Реализация стеков на Python**
 
-На Python стеки реализуются как массивы, ведь по сути это они и есть, так как методы `.append()` и `.pop()` выполняют те же функции, что и `push()` и `pop()`.
+На Python стеки реализуются как массивы, ведь по сути это они и есть, так как методы `.append()` и `.pop()` выполняют те же функции, что и `.push()` и `.pop()`.
 
 ```py
     stack = [1, 34, -88, 90.01]
 
-    stack.append(‘never gonna give you up’)
+    stack.append("never gonna give you up")
     stack.append(True)
     print(stack)
 
@@ -70,7 +70,7 @@
 
 ```py
     queue = [1, 34, -88, 90.01]
-    queue.append(‘never gonna give you up’)
+    queue.append("never gonna give you up")
     queue.append(True)
     print(queue)
 
@@ -82,11 +82,11 @@
 
 ### **Вывод:**
 
-    [1, 34, -88, 90.01, ‘never gonna give you up’, True]
+    [1, 34, -88, 90.01, "never gonna give you up", True]
     1
-    [34, -88, 90.01, ‘never gonna give you up’, True]
+    [34, -88, 90.01, "never gonna give you up", True]
     34
-    [-88, 90.01, ‘never gonna give you up’, True]
+    [-88, 90.01, "never gonna give you up", True]
 
 Но операция `.pop(0)` работает за $O(n)$, так как после удаления первого элемента необходимо сдвинуть все элементы на одно место назад, это очень медленно.
 
@@ -98,7 +98,7 @@
     from collections import deque
 
     queue = deque([1, 34, -88, 90.01])
-    queue.append(‘never gonna give you up’)
+    queue.append("never gonna give you up")
     queue.append(True)
     print(queue)
 
@@ -110,8 +110,8 @@
 
 ### **Вывод:**
 
-    [1, 34, -88, 90.01, ‘never gonna give you up’, True]
+    [1, 34, -88, 90.01, "never gonna give you up", True]
     1
-    [34, -88, 90.01, ‘never gonna give you up’, True]
+    [34, -88, 90.01, "never gonna give you up", True]
     34
-    [-88, 90.01, ‘never gonna give you up’, True]
+    [-88, 90.01, "never gonna give you up", True]
