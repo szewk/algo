@@ -10,7 +10,7 @@
   };
 </script>
 
-<span style="color: #E5E4E4; font-family: Helvetica;">
+<span style="color: #E5E4E4; font-family: PT Mono;">
 
 ### [Алгоритмы](README.md) / Графы: Поиск в глубину
 
