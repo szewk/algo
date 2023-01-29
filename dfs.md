@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -9,8 +13,6 @@
     }
   };
 </script>
-
-<span style="color: #E5E4E4; font-family: PT Mono;">
 
 ### [Алгоритмы](README.md) / Графы: Поиск в глубину
 
