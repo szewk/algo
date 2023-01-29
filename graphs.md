@@ -14,7 +14,7 @@ layout: default
   };
 </script>
 
-### [Алгоритмы](README.md) / Графы
+### [Алгоритмы](index.md) / Графы
 
 # **Графы**
 
